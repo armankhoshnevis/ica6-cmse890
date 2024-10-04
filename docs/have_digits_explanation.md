@@ -1,0 +1,3 @@
+# Explanation: Determining the Number of Digits Using `have_digits`
+
+The have_digits function demonstrates a simple algorithm for checking if a string contains any digits. It loops through each character in the string and uses the `isdigit()` method to determine whether a character is a digit. As soon as the function finds a digit, it sets the output (out) to 1 and uses the break statement to exit the loop. This optimization prevents unnecessary checks once a digit is found.
